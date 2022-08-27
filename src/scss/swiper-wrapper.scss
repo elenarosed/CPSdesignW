@@ -1,0 +1,8 @@
+.swiper-wrapper{
+  @media (min-width: 768px){
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-top: 24px;
+  }
+}

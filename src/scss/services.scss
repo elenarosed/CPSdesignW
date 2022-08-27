@@ -1,0 +1,55 @@
+.services {
+  &__heading {
+    margin-left: 24px;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -24px;
+
+      display: inline-block;
+      height: 40px;
+
+      border-left: 4px solid $color-decor;
+      border-radius: 0 5px 5px 0;
+
+      @media (min-width: 1440px){
+        left: -32px;
+      }
+    }
+
+    @media (min-width: 1440px){
+      margin-top: 42px;
+      margin-left: 32px;
+      margin-bottom: 8px;
+    }
+  }
+  &__user-section{
+    list-style: none;
+    display: none;
+
+    @media (min-width: 1440px){
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  &__user-section-item{
+    @media (min-width: 1440px){
+      margin-top: 42px;
+      margin-right: 32px;
+    }
+  }
+  &__description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+
+    @media (min-width: 1440px){
+      flex-direction: row;
+      margin-top: 32px;
+    }
+  }
+}

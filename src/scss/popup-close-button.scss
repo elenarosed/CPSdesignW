@@ -1,0 +1,9 @@
+.popup-close-button{
+  @media (min-width: 1440px){
+    position: fixed;
+    top: 0;
+    right: 473px;
+
+    z-index: 2;
+  }
+}

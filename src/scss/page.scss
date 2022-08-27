@@ -1,0 +1,19 @@
+.page{
+  font-family: 'TT Lakes', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: $text-color;
+  margin: 0;
+
+  &_centered{
+    position: relative;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+  }
+  @media (min-width: 768px){
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

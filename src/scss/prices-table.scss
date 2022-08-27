@@ -1,0 +1,18 @@
+.prices-table{
+  display: none;
+  border-collapse: collapse;
+
+  &_centered{
+    margin: 0 auto;
+  }
+  &__heading{
+    text-align: left;
+  }
+  @media (min-width: 768px){
+    display: block;
+    max-width: 720px;
+  }
+  @media (min-width: 1440px){
+    max-width: 1056px;
+  }
+}

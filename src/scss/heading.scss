@@ -1,0 +1,23 @@
+.heading{
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  color: $text-color--muted;
+
+  &_uppercase{
+    text-transform: uppercase;
+  }
+  &_small{
+    font-family: 'TT Lakes Medium', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: $text-color;
+    text-decoration: none;
+  }
+  &_small-grey{
+    font-size: 14px;
+    line-height: 16px;
+    color: $text-color--muted;
+  }
+}

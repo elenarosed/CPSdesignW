@@ -1,0 +1,16 @@
+.services-description-info {
+  &_mobile {
+    height: 90px;
+    overflow: hidden;
+  }
+  &_open{
+    height: 480px;
+  }
+  &_open-pc{
+    height: 360px;
+  }
+  &_desktop{
+    overflow: hidden;
+    height: 160px;
+  }
+}

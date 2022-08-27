@@ -1,0 +1,19 @@
+.header-nav{
+  display: flex;
+
+  &__button{
+    margin: 24px 16px 24px 0;
+
+    &:last-of-type{
+      @media (min-width: 768px){
+        margin-right: 24px;
+      }
+    }
+    @media (min-width: 1440px){
+      margin-bottom: 0;
+    }
+  }
+  &__button:last-of-type{
+    margin-right: 16px;
+  }
+}

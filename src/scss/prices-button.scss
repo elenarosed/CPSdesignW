@@ -1,0 +1,21 @@
+.prices-button{
+  position: relative;
+  height: 32px;
+  padding:0;
+
+  border: none;
+  border-radius: 16px;
+  background-color: $color-secondary;
+
+  font-family: 'TT Lakes Bold', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: $base-color;
+
+  &:hover{
+    filter: saturate(3) brightness(1.2);
+    transform: scale(1.03);
+    transition: 0.2s ease-out;
+  }
+}

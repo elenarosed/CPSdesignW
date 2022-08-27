@@ -1,0 +1,31 @@
+.menu-link{
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  height: 36px;
+
+  &_active{
+    position: relative;
+
+    &:before{
+      content: '';
+      position: absolute;
+      top: 4px;
+      left: 0;
+
+      display: inline-block;
+      height: 32px;
+
+      border-left: 4px solid $color-decor;
+      border-radius: 0 5px 5px 0;
+    }
+  }
+  &:hover:not(.menu-link_active){
+    background-color: $color-main-dark;
+  }
+
+  @media (min-width: 1440px){
+    height: 40px;
+    padding-left: 24px;
+  }
+}

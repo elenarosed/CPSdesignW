@@ -1,0 +1,17 @@
+.button-link{
+  &__arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 11px;
+    align-self: flex-end;
+
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+
+    background-image: url('../img/dropdownwhite.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

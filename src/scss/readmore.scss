@@ -1,0 +1,11 @@
+.readmore {
+  &_opened {
+    &:before {
+      left: 25px;
+      background-image: url('../img/arrows.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      transform: rotate(180deg);
+    }
+  }
+}

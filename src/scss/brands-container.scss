@@ -1,0 +1,36 @@
+.brands-container {
+  background-color: $color-main;
+
+  &_mobile{
+    height: 154px;
+  }
+  &_closed{
+    height: 199px;
+  }
+  &_open-tablet{
+    height: 376px;
+  }
+  &_open-pc{
+    height: 288px;
+  }
+  &:after{
+    position: absolute;
+    content: '';
+    top:0;
+    right: 0;
+
+    width: 24px;
+    height: 166px;
+    z-index: 10;
+    background: linear-gradient(270deg, $color-main 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+
+    @media (min-width: 768px){
+      box-shadow: none;
+    }
+  }
+
+  @media (min-width: 768px){
+    display: flex;
+    margin: 0;
+  }
+}

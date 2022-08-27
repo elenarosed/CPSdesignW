@@ -1,0 +1,13 @@
+.services-description-button{
+  position: relative;
+  width: 150px;
+  border: none;
+  background-color:transparent;
+
+  &:hover{
+    color: $color-secondary;
+    font-size: 17px;
+    text-decoration: underline;
+    transition: 0.1s ease;
+  }
+}

@@ -1,0 +1,75 @@
+.services-description {
+  &__text-section {
+    margin: 0 auto;
+
+    @media (min-width: 768px){
+      margin: 0;
+    }
+
+  }
+  &__text{
+    @media (min-width: 768px){
+      margin: 0;
+      padding-bottom: 20px;
+    }
+  }
+  &__info{
+    margin-bottom: 10px;
+
+    @media (min-width: 768px){
+      margin-bottom: 10px;
+    }
+    @media (min-width: 1440px){
+      margin-bottom: 10px;
+    }
+  }
+  &__button{
+    margin-left: 10px;
+
+    &:before{
+      content: '';
+
+      position: absolute;
+      top: 7px;
+      left: 5px;
+
+      width: 8px;
+      height: 11px;
+    }
+
+    &_closed {
+      &:before{
+        background-image: url('../img/arrows.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+
+    @media (min-width: 768px){
+      margin-left: 10px;
+      margin-bottom: 16px;
+    }
+  }
+  &__image{
+    max-width: 320px;
+    margin: 15px auto 0 auto;
+
+    @media (min-width: 768px){
+      margin: 0;
+      margin-left: 48px;
+    }
+    @media (min-width: 1440px){
+      margin: 0;
+      margin-left: 36px;
+    }
+  }
+
+  @media (min-width: 768px){
+    flex-direction: row;
+    width: 720px;
+    margin: 32px auto 0 auto;
+  }
+  @media (min-width: 1440px){
+    width: 1056px;
+  }
+}

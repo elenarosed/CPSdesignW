@@ -1,0 +1,29 @@
+.popup-submit-button{
+  position: relative;
+  display: block;
+  width: 136px;
+  height: 32px;
+  padding:0;
+
+  border: none;
+  border-radius: 16px;
+  background-color: $color-secondary;
+
+  color: $base-color;
+  font-family: 'TT Lakes Bold', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 24px;
+
+  .button-link__arrow{
+    margin-right: 5px;
+  }
+  &:hover{
+    filter: saturate(3) brightness(1.2);
+    transform: scale(1.03);
+    transition: 0.5s ease-out;
+  }
+  &__text{
+    margin-right: 15px;
+  }
+}

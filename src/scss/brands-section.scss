@@ -1,0 +1,22 @@
+.brands-section{
+  width: 320px;
+
+  &_centered{
+    margin: 0 auto;
+  }
+  &__heading{
+    @media (min-width: 768px){
+      padding: 16px 0 16px 24px;
+    }
+    @media (min-width: 1440px){
+      padding-left: 32px;
+    }
+  }
+
+  @media (min-width: 768px){
+    width: 768px;
+  }
+  @media (min-width: 1440px){
+    width: 1120px;
+  }
+}

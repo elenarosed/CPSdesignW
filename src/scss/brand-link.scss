@@ -1,0 +1,13 @@
+.brand-link{
+  position: relative;
+
+  display: block;
+  width: 40px;
+  height: 40px;
+
+  flex-shrink: 0;
+
+  border: 2px solid $color-secondary;
+  border-radius: 20px;
+  text-decoration: none;
+}

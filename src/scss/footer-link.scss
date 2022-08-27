@@ -1,0 +1,6 @@
+.footer-link {
+  &:hover {
+    color: $color-secondary;
+    text-decoration: underline;
+  }
+}

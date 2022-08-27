@@ -1,0 +1,18 @@
+.form-item{
+  padding: 12px 0 12px 16px;
+  width: 100%;
+
+  border: 1px solid $color-main--darken;
+  border-radius: 8px;
+
+  font-family: 'TT Lakes Regular', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+
+  &:active{
+    outline-color: $color-secondary;
+  }
+  &:focus{
+    outline-color: $color-secondary;
+  }
+}

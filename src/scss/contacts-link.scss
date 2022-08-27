@@ -1,0 +1,6 @@
+.contacts-link{
+  &:not(.link_active):hover{
+    color: $color-secondary;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,16 @@
+.button{
+  width: 40px;
+  height: 40px;
+  padding:0;
+
+  font-size: 0;
+  border: none;
+  border-radius: 20px;
+  background-color: $color-secondary;
+
+  &:hover{
+    filter: saturate(3) brightness(1.2);
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+  }
+}

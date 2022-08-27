@@ -1,0 +1,54 @@
+.read-more-button{
+  display: none;
+
+  &.brands-section__button{
+    @media (min-width: 768px){
+      margin: 8px 0 34px 57px;
+    }
+  }
+  &:hover{
+    color: $color-secondary;
+    font-size: 17px;
+    text-decoration: underline;
+    transition: 0.1s ease;
+  }
+  &:before{
+    @media (min-width: 768px){
+      content: '';
+      position: absolute;
+      top: 7px;
+      left: -17px;
+
+      width: 8px;
+      height: 11px;
+    }
+  }
+  &_closed{
+    &:before{
+      @media (min-width: 768px){
+        background-image: url('../img/arrows.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+  &_opened{
+    &:before{
+      @media (min-width: 768px){
+        background-image: url('../img/arrows.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: rotate(180deg);
+      }
+    }
+  }
+  @media (min-width: 768px){
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    background: none;
+    border: none;
+  }
+}

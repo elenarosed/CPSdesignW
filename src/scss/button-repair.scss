@@ -1,0 +1,25 @@
+.button-repair{
+  position: relative;
+  background-image: url('../img/repair.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:before{
+    content: '';
+    position: absolute;
+    right: 50px;
+    top: 5px;
+
+    display: block;
+    width: 2px;
+    height: 32px;
+
+    background-image: url('../img/divider.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media (min-width: 768px){
+      right: 60px;
+    }
+  }
+}

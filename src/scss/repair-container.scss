@@ -1,0 +1,29 @@
+.repair-container {
+  &:after{
+    position: absolute;
+    content: '';
+    top:0;
+    right: 0;
+
+    width: 24px;
+    height: 166px;
+    z-index: 10;
+    background: linear-gradient(270deg, $color-main 16.84%, rgba(253, 126, 126, 0) 100%);
+
+    @media (min-width: 768px){
+      display: none;
+    }
+  }
+  &_mobile{
+    height: 240px;
+  }
+  &_closed{
+    height: 224px;
+  }
+  &_open-tablet{
+    height: 581px;
+  }
+  &_open-pc{
+    height: 397px;
+  }
+}

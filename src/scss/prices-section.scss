@@ -1,0 +1,10 @@
+.prices-section{
+  width: 320px;
+
+  &_centered{
+    margin: 0 auto;
+  }
+  @media (min-width: 768px){
+    display: none;
+  }
+}

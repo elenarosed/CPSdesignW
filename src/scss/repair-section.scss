@@ -1,0 +1,19 @@
+.repair-section{
+  width: 320px;
+
+  &_centered{
+    margin: 0 auto;
+  }
+
+  &__button{
+    @media (min-width: 768px){
+      margin: 8px 0 34px 57px;
+    }
+  }
+  @media (min-width: 768px){
+    width: 768px;
+  }
+  @media (min-width: 1440px){
+    width: 1120px;
+  }
+}

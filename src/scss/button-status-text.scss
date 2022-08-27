@@ -1,0 +1,7 @@
+.button-status-text {
+  &:after{
+    background-image: url('../img/status.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

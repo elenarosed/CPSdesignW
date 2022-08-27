@@ -1,0 +1,7 @@
+.button-repair-text{
+  &:after {
+    background-image: url('../img/repair.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

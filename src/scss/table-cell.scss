@@ -1,0 +1,13 @@
+.table-cell{
+  padding: 16px 16px 16px 0;
+  width: 100%;
+  white-space: nowrap;
+
+  &:not(th.table-cell){
+    background-color: $base-color;
+  }
+
+  @media (min-width: 1440px){
+    padding: 16px 24px;
+  }
+}

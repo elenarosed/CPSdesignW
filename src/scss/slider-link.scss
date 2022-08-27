@@ -1,0 +1,20 @@
+.slider-link {
+  &__arrow {
+    background-image: url('../img/dropdown.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+  }
+  &__arrow_bottom{
+    align-self: flex-end;
+    margin-bottom: 16px;
+  }
+}
