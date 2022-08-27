@@ -1,2 +1,2 @@
 # CPSdesign using webpack
-https://elenarosed.github.io/CPSdesign/
+https://elenarosed.github.io/CPSdesignW/
