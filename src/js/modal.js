@@ -1,12 +1,12 @@
-let menuButton = document.querySelector('.menu-button');
-let feedbackButton = document.querySelector('.feedback-button');
-let callButton = document.querySelector('.call-button');
-let menuCallButton = document.querySelector('.menu-call-button');
-let menuFeedbackButton = document.querySelector('.menu-feedback-button');
+const menuButton = document.querySelector('.menu-button');
+const feedbackButton = document.querySelector('.feedback-button');
+const callButton = document.querySelector('.call-button');
+const menuCallButton = document.querySelector('.menu-call-button');
+const menuFeedbackButton = document.querySelector('.menu-feedback-button');
 
-let popupMenu = document.querySelector('#menu');
-let popupFeedback = document.querySelector('#feedback');
-let popupCall = document.querySelector('#call');
+const popupMenu = document.querySelector('#menu');
+const popupFeedback = document.querySelector('#feedback');
+const popupCall = document.querySelector('#call');
 
 let openModal = function(e){
     e.preventDefault();
@@ -14,12 +14,13 @@ let openModal = function(e){
     /*open popup corresponding to the clicked button */
     if (e.target.classList.contains('menu-button')) {
         popupMenu.classList.add('open');
-    } else if (e.target.classList.contains('feedback-button')) {
+    }
+    if (e.target.classList.contains('feedback-button')) {
         popupMenu.classList.remove('open');
         popupCall.classList.remove('open');
         popupFeedback.classList.add('open');
     }
-    else if (e.target.classList.contains('call-button')) {
+    if (e.target.classList.contains('call-button')) {
         popupMenu.classList.remove('open');
         popupFeedback.classList.remove('open');
         popupCall.classList.add('open');

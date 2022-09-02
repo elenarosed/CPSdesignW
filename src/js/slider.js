@@ -9,15 +9,15 @@ let swiperRepair = undefined;
 let swiperPrices = undefined;
 let init = false;
 
-let brandsSection = document.querySelector('.brands-section');
-let brandsContainer = brandsSection.querySelector('.brands-container');
-let brandsButton = brandsSection.querySelector('.read-more-button-brands');
-let textSection = document.querySelector('.text-wrapper');
+const brandsSection = document.querySelector('.brands-section');
+const brandsContainer = brandsSection.querySelector('.brands-container');
+const brandsButton = brandsSection.querySelector('.read-more-button-brands');
+const textSection = document.querySelector('.text-wrapper');
 
-let repairSection = document.querySelector('.repair-section');
-let repairContainer = repairSection.querySelector('.repair-container');
-let repairButton = repairSection.querySelector('.read-more-button-repair');
-let servicesButton = document.querySelector('.services-readmore-button')
+const repairSection = document.querySelector('.repair-section');
+const repairContainer = repairSection.querySelector('.repair-container');
+const repairButton = repairSection.querySelector('.read-more-button-repair');
+const servicesButton = document.querySelector('.services-readmore-button')
 
 let layoutOnResize = function() {
     if(mobile.matches) {
